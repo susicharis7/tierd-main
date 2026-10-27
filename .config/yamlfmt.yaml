@@ -1,0 +1,8 @@
+---
+doublestar: true
+exclude:
+  - .copier-answers.yml
+formatter:
+  type: basic
+  indent: 2
+  include_document_start: true

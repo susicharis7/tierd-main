@@ -1,0 +1,18 @@
+# Changes here will be overwritten by Copier
+_commit: 0.2.5
+_src_path: https://codeberg.org/alekbuza/xaero.git
+cocogitto_changelog_authors:
+-   signature: susicharis7
+    username: susicharis7
+cocogitto_changelog_owner: susicharis7
+cocogitto_changelog_path: CHANGELOG.md
+cocogitto_changelog_remote: github.com
+cocogitto_changelog_repository: tierd-main
+cocogitto_changelog_template: remote
+project_name: tierd-main
+project_short_description: A network for developers, built on ranking
+use_cocogitto: true
+use_commit_check: true
+use_pre_commit: true
+project_description: |-
+
