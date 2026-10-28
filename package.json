@@ -9,9 +9,16 @@
     "src/libs/*"
   ],
   "devDependencies": {
+    "@eslint/js": "9.39.5",
+    "@nx/eslint": "24.0.2",
+    "@nx/eslint-plugin": "24.0.2",
     "@nx/js": "24.0.2",
     "@types/node": "24.19.2",
+    "eslint": "9.39.5",
+    "eslint-config-prettier": "10.1.8",
     "nx": "24.0.2",
-    "typescript": "6.0.3"
+    "prettier": "3.9.10",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.1"
   }
 }
