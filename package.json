@@ -1,0 +1,14 @@
+{
+  "name": "@tierd/source",
+  "version": "0.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "packageManager": "bun@1.4.4",
+  "workspaces": [
+    "src/apps/*",
+    "src/libs/*"
+  ],
+  "devDependencies": {
+    "nx": "24.0.2"
+  }
+}
