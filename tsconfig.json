@@ -8,6 +8,9 @@
     },
     {
       "path": "./src/apps/api"
+    },
+    {
+      "path": "./src/apps/web"
     }
   ]
 }

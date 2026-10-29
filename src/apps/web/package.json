@@ -1,0 +1,12 @@
+{
+  "name": "@tierd/web",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "name": "web"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  }
+}
