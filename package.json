@@ -6,7 +6,8 @@
   "packageManager": "bun@1.4.4",
   "workspaces": [
     "src/apps/*",
-    "src/libs/*"
+    "src/libs/*",
+    "src/libs/shared/*"
   ],
   "devDependencies": {
     "@eslint/js": "9.39.5",
@@ -20,5 +21,6 @@
     "prettier": "3.9.10",
     "typescript": "6.0.3",
     "typescript-eslint": "8.72.1"
-  }
+  },
+  "dependencies": {}
 }

@@ -4,5 +4,20 @@
     "appsDir": "src/apps",
     "libsDir": "src/libs"
   },
-  "analytics": false
+  "analytics": false,
+  "plugins": [
+    {
+      "plugin": "@nx/js/typescript",
+      "options": {
+        "typecheck": { "targetName": "typecheck" },
+        "build": false
+      }
+    },
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    }
+  ]
 }

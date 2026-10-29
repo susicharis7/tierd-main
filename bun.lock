@@ -18,6 +18,10 @@
         "typescript-eslint": "8.72.1",
       },
     },
+    "src/libs/shared/types": {
+      "name": "@tierd/types",
+      "version": "0.0.1",
+    },
   },
   "packages": {
     "@babel/code-frame": ["@babel/code-frame@7.29.7", "", { "dependencies": { "@babel/helper-validator-identifier": "^7.29.7", "js-tokens": "^4.0.0", "picocolors": "^1.1.1" } }, "sha512-Aup7aUOfpbAUg2ROOJN6Iw5f9DMBlzu0mIkm/malLQFN/YQgO48wCj0Kxa3sEHJvPVFg7siR+qRInwXd2qhQKw=="],
@@ -299,6 +303,8 @@
     "@nx/workspace": ["@nx/workspace@24.0.2", "", { "dependencies": { "@nx/devkit": "24.0.2", "@zkochan/js-yaml": "0.0.7", "chalk": "^4.1.0", "nx": "24.0.2", "picomatch": "4.0.4", "semver": "^7.6.3", "tslib": "^2.3.0", "yargs-parser": "21.1.1" } }, "sha512-1eaDTFF7uLU24TYQxyQ/QSj/mmAF1ecsoZF91XCDS+lFL6YGpbZoywVaHWGQLcsAkscsuDDgy3KiokZYs4MAIQ=="],
 
     "@phenomnomnominal/tsquery": ["@phenomnomnominal/tsquery@6.2.0", "", { "dependencies": { "@types/esquery": "^1.5.4", "esquery": "^1.7.0" }, "peerDependencies": { "typescript": ">3.0.0" } }, "sha512-Vo9nkhfZxDB/sBiqIY3pjDC4mOSyure+AFlEW5hcy/tRE82MqCXjRN4InnVNMldinRt0dLYqg4HAU2XPq5e1LA=="],
+
+    "@tierd/types": ["@tierd/types@workspace:src/libs/shared/types"],
 
     "@tybys/wasm-util": ["@tybys/wasm-util@0.9.0", "", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-6+7nlbMVX/PVDCwaIQ8nTOPveOcFLSt8GcXdx8hD0bt39uWxYT88uXzqTd4fTvqta7oeUJqudepapKNt2DYJFw=="],
 
