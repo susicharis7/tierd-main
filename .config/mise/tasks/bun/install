@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#MISE description="Install JavaScript packages exactly as bun.lock says"
+
+bun install --frozen-lockfile

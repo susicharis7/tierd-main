@@ -1,4 +1,4 @@
 #!/bin/sh
 
 #MISE description="Bootstrap"
-#MISE depends=["distro:bootstrap"]
+#MISE depends=["distro:bootstrap", "bun:install"]
