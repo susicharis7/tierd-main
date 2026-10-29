@@ -15,7 +15,24 @@ export default [
         {
           enforceBuildableLibDependency: true,
           allow: [],
-          depConstraints: [{ sourceTag: '*', onlyDependOnLibsWithTags: ['*'] }],
+          depConstraints: [
+            {
+              sourceTag: 'scope:web',
+              onlyDependOnLibsWithTags: ['scope:web', 'scope:shared'],
+            },
+            {
+              sourceTag: 'scope:api',
+              onlyDependOnLibsWithTags: ['scope:api', 'scope:shared'],
+            },
+            {
+              sourceTag: 'scope:shared',
+              onlyDependOnLibsWithTags: ['scope:shared'],
+            },
+            {
+              sourceTag: 'type:types',
+              onlyDependOnLibsWithTags: ['type:types'],
+            },
+          ],
         },
       ],
     },

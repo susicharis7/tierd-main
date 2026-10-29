@@ -3,7 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "nx": {
-    "name": "web"
+    "name": "web",
+    "tags": [
+      "scope:web",
+      "type:app"
+    ]
   },
   "dependencies": {
     "@tierd/types": "workspace:*",

@@ -4,6 +4,10 @@
   "private": true,
   "nx": {
     "name": "api",
+    "tags": [
+      "scope:api",
+      "type:app"
+    ],
     "targets": {
       "build": {
         "executor": "@nx/esbuild:esbuild",
