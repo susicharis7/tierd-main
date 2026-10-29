@@ -41,6 +41,7 @@
       "dependencies": {
         "@fastify/autoload": "6.5.1",
         "@fastify/sensible": "6.0.7",
+        "@tierd/types": "workspace:*",
         "fastify": "5.12.7",
         "fastify-plugin": "6.0.1",
       },
@@ -49,6 +50,7 @@
       "name": "@tierd/web",
       "version": "0.0.1",
       "dependencies": {
+        "@tierd/types": "workspace:*",
         "react": "19.3.1",
         "react-dom": "19.3.1",
       },
