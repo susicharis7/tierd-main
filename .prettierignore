@@ -1,0 +1,10 @@
+# python tools (Prettier doesn't read uv's own .gitignore inside .venv)
+.venv/
+
+# generated
+bun.lock
+
+# formatted by mdformat and yamlfmt
+*.md
+*.yml
+*.yaml

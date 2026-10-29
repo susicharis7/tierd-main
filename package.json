@@ -1,0 +1,42 @@
+{
+  "name": "@tierd/source",
+  "version": "0.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "packageManager": "bun@1.4.4",
+  "workspaces": [
+    "src/apps/*",
+    "src/libs/*",
+    "src/libs/shared/*"
+  ],
+  "devDependencies": {
+    "@eslint/js": "9.39.5",
+    "@nx/esbuild": "24.0.2",
+    "@nx/eslint": "24.0.2",
+    "@nx/eslint-plugin": "24.0.2",
+    "@nx/js": "24.0.2",
+    "@nx/node": "24.0.2",
+    "@nx/react": "24.0.2",
+    "@nx/vite": "24.0.2",
+    "@nx/web": "24.0.2",
+    "@tailwindcss/vite": "4.3.3",
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "esbuild": "0.27.7",
+    "eslint": "9.39.5",
+    "eslint-config-prettier": "10.1.8",
+    "eslint-plugin-import": "2.31.0",
+    "eslint-plugin-jsx-a11y": "6.10.1",
+    "eslint-plugin-react": "7.37.5",
+    "eslint-plugin-react-hooks": "5.0.0",
+    "nx": "24.0.2",
+    "prettier": "3.9.10",
+    "tailwindcss": "4.3.3",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.1",
+    "vite": "8.3.5"
+  }
+}
